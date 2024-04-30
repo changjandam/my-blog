@@ -1,8 +1,8 @@
 ---
 title: "nest if-else剋星-Guard Clause"
 description: "分享一個簡單的技巧，讓你避免使用過多的if-else"
-pubDate: "2024 04 27"
-heroImage: "/240427.webp"
+pubDate: "2024-04-27"
+heroImage: "/guard.webp"
 ---
 
 **前言**
