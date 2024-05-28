@@ -17,7 +17,7 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
@@ -59,4 +59,7 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 
 <!-- Google -->
-<meta name="google-site-verification" content="tAAvO6tfu6_tzZMEARX6T5fOp8L6yYtOsjjqs6vTrIo" />
+<meta
+  name="google-site-verification"
+  content="tAAvO6tfu6_tzZMEARX6T5fOp8L6yYtOsjjqs6vTrIo"
+/>
